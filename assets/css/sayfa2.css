@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-inline: auto;
+    max-width: 1440px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 44px;
+    margin-left: 80px;
+}
+.nav2{
+    display: flex;
+    gap: 33px;
+    margin-right: 88px;
+}
+.first-box{
+    margin-left: 80px;
+    margin-top: 43px;
+    position: relative;
+}
+.first-box-text{
+    position: absolute;
+    left: 85px;
+    top: 137px;
+    width: 446px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    & > p{
+        text-align: left;
+        color: white;
+    }
+    & > h1{
+        color: white;
+    }
+}
+.second-box{
+    display: flex;
+    margin-left: 165px;
+    margin-top: 168px;
+    gap: 125px;
+    & > img{
+        border-radius: 8px;
+    }
+    .second-box-text{
+        width: 540px;
+        text-align: left;
+        gap: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        justify-content: center;
+
+    }
+}
+.box-3{
+    background: #2C343E;
+    max-width: 1280px;
+    height: 474px;
+    position: relative;
+    margin-top: 256px;
+    margin-left: 80px;
+    border-radius: 8px;
+    & > img{
+        position: absolute;
+        left: 750px;
+        bottom: 80px;
+    }
+}
+.box-3-text{
+    position: absolute;
+    left: 85px;
+    top: 88px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 540px;
+    & > h1{
+        color: white;
+    }
+    & > p{
+        line-height: 26px;
+        color: #FEFCF7;
+    }
+}
+.box-4{
+    margin-top: 168px;
+    margin-left: 165px;
+}
+.box-inside-boxlar{
+    display: grid;
+    gap: 95px;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 72px;
+}
+.box-inside-text{
+    margin-top: 45px;
+    text-align: left;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    & > h1{
+    font-size: 32px;
+    line-height: 36px;
+    }
+    & > p{
+        display: flex;
+        flex-direction: column;
+        width: 120px;
+        line-height: 26px;
+    }
+}
+.footer{
+    width: 1280px;
+    height: 120px;
+    background: #2C343E;
+    margin-top: 168px;
+    margin-left: 80px;
+    position: relative;
+}
+.footer-main{
+    display: flex;
+    align-items: center;
+    width: 1100px;
+    justify-content: space-between;
+    left: 85px;
+    top: 47px;
+    position: absolute;
+
+}
+.footer-2{
+    display: flex;
+    gap: 33px;
+    font-size: 12px;
+    width: 622px;
+    color: #83888F;
+
+}
